@@ -1,7 +1,19 @@
 export const color = {
-  white: '#fffff',
-  black: '#000000',
-  red10: '#EE7373',
+  white: "#fff",
+  black: "#000",
+  bg: "#F9FAFE",
+  primary: "#539165",
+  gray_50: "#F5F7FA",
+  gray_100: "#E9EAF0",
+  gray_200: "#CED1D9",
+  gray_300: "#84849D",
+  gray_400: "#A1A5B3",
+  gray_500: "#8C94A3",
+  gray_900: "#1D1F2C",
+  blue_100: "#EBF1FF",
+  blue_500: "#4F80FD",
+  red_100: "#EE7373",
+  red_200: "#F63D68",
 } as const;
 
 export type ColorType = typeof color;

@@ -11,6 +11,6 @@ export default index;
 
 const Wrapper = styled.div`
   ${({ theme }) => css`
-    color: ${theme.color.red10};
+    color: ${theme.color.red_100};
   `}
 `;
