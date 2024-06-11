@@ -1,7 +1,13 @@
 import React from "react";
 
-const index = () => {
+import { Layout } from "@/components";
+
+const Page = () => {
   return <div>Home</div>;
 };
 
-export default index;
+Page.getLayout = (page: React.ReactElement) => {
+  return <Layout>{page}</Layout>;
+};
+
+export default Page;
