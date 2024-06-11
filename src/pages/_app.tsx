@@ -5,6 +5,7 @@ import { RecoilRoot } from "recoil";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Global, ThemeProvider } from "@emotion/react";
 
+import { SidebarPortal } from "@/components";
 import { queryClient } from "@/services";
 import { globalStyles, theme } from "@/styles";
 
@@ -28,6 +29,7 @@ const App: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
       <QueryClientProvider client={queryClient}>
         <RecoilRoot>
           <ThemeProvider theme={theme}>
+            <SidebarPortal />
             {getLayout(<Component {...pageProps} />)}
           </ThemeProvider>
         </RecoilRoot>
