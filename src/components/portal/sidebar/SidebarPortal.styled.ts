@@ -3,6 +3,7 @@ import { css } from "@emotion/react";
 
 export const Dim = styled.div`
   ${({ theme }) => css`
+    position: fixed;
     display: flex;
     align-items: center;
     width: 100vw;
