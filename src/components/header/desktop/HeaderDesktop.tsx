@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import logoSrc from "@/assets/image/logo.png";
+import PersonIcon from "@/assets/icon/ic_person.svg";
 import { useNavigationHover } from "./hooks/useNavigationHover";
 import * as S from "./HeaderDesktop.styled";
 
@@ -69,8 +70,9 @@ const HeaderDesktop = () => {
           </S.MainNavItem>
         </ul>
       </S.Navbar>
-      {/* TODO: 추후 수정 예정 */}
-      <Link href="/login">로그인</Link>
+      <S.ProfileLink aria-label="User profile" href="/login">
+        <PersonIcon />
+      </S.ProfileLink>
     </S.InnerWrapper>
   );
 };
