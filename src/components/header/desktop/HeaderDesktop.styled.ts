@@ -119,3 +119,20 @@ export const SubNavLink = styled(Link)`
     transition: 0.3s;
   `}
 `;
+
+// TODO: SVG 수정
+export const ProfileLink = styled(Link)`
+  ${({ theme }) => css`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    border: 1px solid ${theme.color.black};
+    border-radius: 50%;
+
+    & > svg > g > path {
+      fill: ${theme.color.black};
+    }
+  `}
+`;
