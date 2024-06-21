@@ -1,12 +1,13 @@
 import React from "react";
 
-import { MainContentsIntroduction } from "@/containers";
+import { Contacts, MainContentsIntroduction } from "@/containers";
 import { Layout } from "@/components";
 
 const Page = () => {
   return (
     <>
       <MainContentsIntroduction />
+      <Contacts />
     </>
   );
 };
