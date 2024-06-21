@@ -1,9 +1,14 @@
 import React from "react";
 
+import { MainContentsIntroduction } from "@/containers";
 import { Layout } from "@/components";
 
 const Page = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <MainContentsIntroduction />
+    </>
+  );
 };
 
 Page.getLayout = (page: React.ReactElement) => {
