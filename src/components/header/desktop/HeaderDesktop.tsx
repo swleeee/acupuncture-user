@@ -22,7 +22,7 @@ const HeaderDesktop = () => {
             <S.NavLink href="/education">이침 교육</S.NavLink>
             <S.SubNavList isActive={states[0]}>
               <li>
-                <S.SubNavLink href="/">주요 강의</S.SubNavLink>
+                <S.SubNavLink href="/education/course">주요 강의</S.SubNavLink>
               </li>
               <li>
                 <S.SubNavLink href="/">Q&A</S.SubNavLink>
