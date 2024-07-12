@@ -1,6 +1,10 @@
 import React from "react";
 
-import { Contacts, MainContentsIntroduction } from "@/containers";
+import {
+  Contacts,
+  MainContentsIntroduction,
+  YoutubeVideoList,
+} from "@/containers";
 import { Layout } from "@/components";
 
 const Page = () => {
@@ -8,6 +12,7 @@ const Page = () => {
     <>
       <MainContentsIntroduction />
       <Contacts />
+      <YoutubeVideoList />
     </>
   );
 };
