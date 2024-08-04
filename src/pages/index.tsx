@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  ContactForm,
   Contacts,
   MainContentsIntroduction,
   YoutubeVideoList,
@@ -13,6 +14,7 @@ const Page = () => {
       <MainContentsIntroduction />
       <Contacts />
       <YoutubeVideoList />
+      <ContactForm />
     </>
   );
 };

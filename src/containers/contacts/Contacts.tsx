@@ -1,7 +1,6 @@
 import React from "react";
 
 import ContactsInfo from "./info/ContactsInfo";
-import ContactsForm from "./form/ContactsForm";
 import * as S from "./Contacts.styled";
 
 export const Contacts = () => {
@@ -14,7 +13,6 @@ export const Contacts = () => {
       </S.SectionTitle>
       <S.ContentWrapper>
         <ContactsInfo />
-        <ContactsForm />
       </S.ContentWrapper>
     </S.Section>
   );

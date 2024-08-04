@@ -7,7 +7,7 @@ const DEFAULT_VALUES = {
   content: "",
 };
 
-const useContactsForm = () => {
+const useContactForm = () => {
   const {
     formState: { errors },
     register,
@@ -24,4 +24,4 @@ const useContactsForm = () => {
   return { errors, register, handleInquire };
 };
 
-export default useContactsForm;
+export default useContactForm;

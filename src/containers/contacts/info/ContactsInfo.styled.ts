@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 
 export const Container = styled.article`
-  flex: 1;
+  margin: 0 auto;
 `;
 
 export const Map = styled.div`

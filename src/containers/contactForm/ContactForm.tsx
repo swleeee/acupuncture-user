@@ -1,12 +1,12 @@
 import React from "react";
 
-import * as S from "./ContactsForm.styled";
-import useContactsForm from "./hooks/useContactsForm";
+import useContactForm from "./hooks/useContactForm";
+import * as S from "./ContactForm.styled";
 
 const REQUIRED_MESSAGE = "필수 값입니다.";
 
-const ContactsForm = () => {
-  const { errors, register, handleInquire } = useContactsForm();
+export const ContactForm = () => {
+  const { errors, register, handleInquire } = useContactForm();
 
   return (
     <S.Container>
@@ -69,5 +69,3 @@ const ContactsForm = () => {
     </S.Container>
   );
 };
-
-export default ContactsForm;
