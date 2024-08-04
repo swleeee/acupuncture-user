@@ -4,6 +4,7 @@ import {
   ContactForm,
   Contacts,
   MainContentsIntroduction,
+  ServiceInfo,
   YoutubeVideoList,
 } from "@/containers";
 import { Layout } from "@/components";
@@ -13,6 +14,7 @@ const Page = () => {
     <>
       <MainContentsIntroduction />
       <Contacts />
+      <ServiceInfo />
       <YoutubeVideoList />
       <ContactForm />
     </>
