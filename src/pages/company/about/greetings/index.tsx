@@ -3,7 +3,7 @@ import React from "react";
 import { Layout, TabLayout } from "@/components";
 import ProfileSrc from "@/assets/image/profile3.png";
 import { COMPANY_ABOUT_TABS } from "@/constants";
-import * as S from "./index.styled";
+import * as S from "@/styles";
 
 const Page = () => {
   return (
