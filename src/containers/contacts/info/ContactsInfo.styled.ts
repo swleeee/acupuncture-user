@@ -2,27 +2,15 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 
 export const Container = styled.article`
+  width: 70%;
   margin: 0 auto;
-`;
-
-export const Map = styled.div`
-  ${({ theme }) => css`
-    ${theme.font.extrabold_54};
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 150px; */
-    height: 300px;
-    margin-bottom: 40px;
-    color: ${theme.color.white};
-    background-color: #3f3a01;
-  `}
 `;
 
 export const DataWrapper = styled.dl`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 32px;
+  margin-top: 16px;
 `;
 
 export const Term = styled.dt`

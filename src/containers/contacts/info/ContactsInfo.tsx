@@ -1,11 +1,12 @@
 import React from "react";
 
+import { KakaoMap } from "@/components";
 import * as S from "./ContactsInfo.styled";
 
 const ContactsInfo = () => {
   return (
     <S.Container>
-      <S.Map>MAP</S.Map>
+      <KakaoMap />
       <S.DataWrapper>
         <S.Term>주소</S.Term>
         <S.Description>전라북도 군산시 은파순환길 174 2층</S.Description>
