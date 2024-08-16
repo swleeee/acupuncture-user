@@ -1,11 +1,6 @@
 import { useForm } from "react-hook-form";
 
-const DEFAULT_VALUES = {
-  name: "",
-  email: "",
-  phone: "",
-  content: "",
-};
+const DEFAULT_VALUES = { name: "", email: "", phone: "", content: "" };
 
 const useContactForm = () => {
   const {
